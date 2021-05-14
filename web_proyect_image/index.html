@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web_sencilla</title>
+    <!--carga de css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style-tools.css" />
+    <link rel="stylesheet" href="css/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <!-- load JS files -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  </head>
+  <body>
+    <div class="parallax-window img-bg-head">
+      <section class="container">
+          <img src="img/EMBARGO 10.1 presidentivaali karikatyyri  NILS TORVALDS16-9.png" alt="" class="img-bg-head">
+        <div class="row">
+          <div class="col-md-6 ml-auto tm-text-white">
+            <header><h1>Individual</h1></header>
+            <p>
+              Mauris nec urna facilisis, sagittis libero at, hendrerit est.
+              Maecenas et ligula sed justo scelerisque placerat sit amet eget
+              tellus. Mauris dolor purus, pharetra sed velit id, tempus maximus
+              nunc. Aenean eleifend id odio id semper. Nam at pellentesque
+              ipsum.
+            </p>
+
+            <a href="#tm-section-2" class="btn btn-danger">Explore...</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+      $(".parallax-window").parallax({
+        naturalWidth: 600,
+        naturalHeight: 400,
+      });
+    </script>
+
+    <div
+      id="tm-section-2"
+      class="parallax-window"
+      data-parallax="scroll"
+      data-image-src="img/bg-img-02.jpg"
+    >
+      <section class="container tm-page-1-content tm-page-2">
+        <div class="row">
+          <article class="col-md-6 tm-article tm-bg-white-transparent">
+            <header><h2>Left Column</h2></header>
+            <b
+              >Donec id augue ac risus faucibus elementum. Quisque tincidunt,
+              sapien et tincidunt suscipit, diam ipsum iaculis augue, nec semper
+              orci ex a arcu. Donec efficitur sem sed ligula mollis.</b
+            >
+          </article>
+
+          <article class="col-md-6 tm-article tm-bg-white-transparent">
+            <header><h2>Right Column</h2></header>
+            <b
+              >Donec id augue ac risus faucibus elementum. Quisque tincidunt,
+              sapien et tincidunt suscipit, diam ipsum iaculis augue, nec semper
+              orci ex a arcu. Duis commodo orci libero.</b
+            >
+
+            <a
+              href="#tm-section-3"
+              class="btn btn-danger ml-auto mr-0 tm-btn-block"
+              >Details...</a
+            >
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

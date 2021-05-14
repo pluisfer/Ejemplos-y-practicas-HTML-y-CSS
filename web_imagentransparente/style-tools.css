@@ -1,0 +1,83 @@
+
+/* imagen fonto backgroud transparente */
+
+.bg-img{
+    min-height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    visibility: visible;
+    z-index: -100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    
+}
+
+
+.container{
+    display: block;       
+}
+
+/* texto y su alineacion */
+
+.cont.mensj{
+    float: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    align-items: center;
+    max-width: 1140;   
+}
+
+.cont-text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.aling-text{
+    color: rgb(233, 233, 73);
+    margin-left: auto!important;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.text-etiqueta{
+    font-size: 4rem;
+    text-shadow: 4px 4px 10px #000000;
+    padding-bottom: 20px;
+    -webkit-tap-highlight-color: transparent;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25%;
+}
+
+.parrafo{
+    margin-bottom: 1rem;
+    padding: 0px 100px 0px 0px;
+    margin-top: 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color:black;
+    line-height: 1.5;
+    text-align: justify;
+
+}

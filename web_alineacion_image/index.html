@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>prueba imagenes</title>
+
+    <!--Normalizar el navegador-->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- bootstrao CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!--fuente aswesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!--script- jquery-->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+      .contenedor {
+        width: 500px;
+        border: solid 2px #000;
+      }
+      img-ts {
+        width: 200px;
+        height: 200px;
+      }
+      .img-txt{
+        width: 400px;
+        height: 300px;
+      }
+
+    </style>
+
+    <div class="container">
+      <h1>Imagenes adaptadas a su respectivo contenido</h1>
+      <div class="contenedor">
+        <img class="img-fluid" src="img/xS7J1I.jpg" alt="" />
+      </div>
+
+      <h1>imagen thumbnails</h1>
+      <img class="img-ts img-thumbnail" src="img/xS7J1I.jpg" alt="" />
+
+      <h1>Alineacion de imagenes</h1>
+      <img
+        src="img/stepen hawking.jpg"
+        alt=""
+        class="img-ts rounded float-left"
+      />
+      <img
+        src="img/stepen hawking.jpg"
+        alt=""
+        class="img-ts rounded float-right"
+      />
+      <img
+        src="img/stepen hawking.jpg"
+        alt=""
+        class="img-ts rounded mx-auto d-block"
+      />
+
+      <h1>Imagen y texto</h1>
+      <figure class="figure img-txt">
+        <img
+          src="img/stepen hawking.jpg"
+          alt=""
+          class="figure-img img-fluid rounded"
+        />
+        <figcaption class="figure-caption text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          dolorem ad qui sed esse! Dolore tempora mollitia reiciendis a,
+          deserunt quidem sed, aperiam vitae doloribus velit quisquam
+          exercitationem officiis nihil.
+        </figcaption>
+      </figure>
+    </div>
+  </head>
+  <body></body>
+</html>

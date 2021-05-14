@@ -1,0 +1,35 @@
+
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+ 
+.text-over{
+    position: absolute;
+    top: 200px;
+    color: #828282;
+    font-family: verdana;
+    font-size: 24px;    
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-bg-head {
+  background: url(../img/EMBARGO 10.1 presidentivaali karikatyyri  NILS TORVALDS16-9.png) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
